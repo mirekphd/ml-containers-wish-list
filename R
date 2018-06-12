@@ -1,1 +1,2 @@
 # R containers wish list
+vertica.dplyr
