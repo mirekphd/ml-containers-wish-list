@@ -1,2 +1,7 @@
 # Python containers wish list
-pip install pretrainedmodels [https://github.com/cadene/pretrained-models.pytorch]
+
+# [https://github.com/cadene/pretrained-models.pytorch]
+pip install pretrainedmodels
+
+# [https://github.com/jupyterlab/jupyterlab]
+pip install jupyterlab 
