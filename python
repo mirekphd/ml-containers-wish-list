@@ -7,7 +7,13 @@
 # [https://github.com/jupyterlab/jupyterlab]
 # pip install jupyterlab 
 
-# [https://github.com/chainer/chainermn]
+# [ChainerMN](https://github.com/chainer/chainermn)
 pip install chainermn
+
+# [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
+
+# [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
+
+
 
 
