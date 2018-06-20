@@ -10,9 +10,15 @@
 # [ChainerMN](https://github.com/chainer/chainermn)
 pip install chainermn
 
+# [Reticulate](https://rstudio.github.io/reticulate/)
+devtools::install_github("rstudio/reticulate")
+
 # [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
 
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
+
+
+
 
 
 
