@@ -1,2 +1,8 @@
 # R containers wish list
-vertica.dplyr
+
+vertica.dplyr (git)
+shinyWidgets (CRAN)
+
+
+
+
