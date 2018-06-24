@@ -7,11 +7,13 @@
 # [https://github.com/jupyterlab/jupyterlab]
 # pip install jupyterlab 
 
+#####################################
+
 # [ChainerMN](https://github.com/chainer/chainermn)
 pip install chainermn
 
-# [Reticulate](https://rstudio.github.io/reticulate/)
-devtools::install_github("rstudio/reticulate")
+[FeatureTools](https://github.com/Featuretools/featuretools)
+pip install featuretools
 
 # [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
 
