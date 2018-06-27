@@ -3,6 +3,11 @@
 vertica.dplyr (git)
 shinyWidgets (CRAN)
 
+# install useful system apps
+RUN apt-get install -y htop locate mc nano vim  
+
+
+
 
 
 
