@@ -6,7 +6,8 @@ shinyWidgets (CRAN)
 # install useful system apps
 RUN apt-get install -y htop locate mc nano vim  
 
-
+# keras add-ons
+tfdatasets tfestimators tfruns
 
 
 
