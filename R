@@ -6,9 +6,12 @@ shinyWidgets (CRAN)
 # install useful system apps
 RUN apt-get install -y htop locate mc nano vim  
 
-# keras add-ons
+# Keras add-ons
 tfdatasets tfestimators tfruns
 
+# plotly
+install_github("ropensci/plotly")
 
-
+# DALEX
+install_github("pbiecek/DALEX")
 
