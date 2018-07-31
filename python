@@ -20,7 +20,10 @@ pip install featuretools
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
 
 # install useful system apps
-RUN apt-get install -y htop locate mc nano vim  
+RUN apt-get install -y htop locate mc nano vim 
+
+# install compression utils
+RUN apt-get install -y pkzip unzip p7zip-full p7zip-rar
 
 
 
