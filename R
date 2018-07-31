@@ -15,3 +15,5 @@ install_github("ropensci/plotly")
 # DALEX
 install_github("pbiecek/DALEX")
 
+# install compression utils
+RUN apt-get install -y pkzip unzip p7zip-full p7zip-rar
