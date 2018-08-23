@@ -23,7 +23,7 @@ pip install featuretools
 RUN apt-get install -y htop locate mc nano vim 
 
 # install compression utils
-RUN apt-get install -y pkzip unzip p7zip-full p7zip-rar
+RUN apt-get install -y zip p7zip-full p7zip-rar
 
 
 
