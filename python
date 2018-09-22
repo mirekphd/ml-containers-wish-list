@@ -7,8 +7,6 @@
 # [https://github.com/jupyterlab/jupyterlab]
 # pip install jupyterlab 
 
-#####################################
-
 # [ChainerMN](https://github.com/chainer/chainermn)
 pip install chainermn
 
@@ -16,8 +14,7 @@ pip install chainermn
 pip install featuretools
 
 # [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
-
-# [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
+pip install paddlepaddle-gpu
 
 # install useful system apps
 RUN apt-get install -y htop locate mc nano vim 
@@ -25,9 +22,16 @@ RUN apt-get install -y htop locate mc nano vim
 # install compression utils
 RUN apt-get install -y zip p7zip-full p7zip-rar
 
-# install OpenShift API (openshift/openshift-restclient-python)
+# install OpenShift python API (openshift/openshift-restclient-python)
 # note: compatibility for OCP 3.9 starts in openshift==0.5
 pip install openshift==0.7.1
+
+#####################################
+# DONE
+#####################################
+
+# [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
+
 
 
 
