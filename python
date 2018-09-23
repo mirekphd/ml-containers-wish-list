@@ -30,6 +30,9 @@ pip install openshift==0.7.1
 # DONE
 #####################################
 
+# [DataTable] (https://github.com/h2oai/datatable)
+pip install https://s3.amazonaws.com/h2o-release/datatable/stable/datatable-0.6.0/datatable-0.6.0-cp36-cp36m-linux_x86_64.whl
+
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
 
 
