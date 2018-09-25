@@ -42,6 +42,10 @@ pip install https://s3.amazonaws.com/h2o-release/datatable/stable/datatable-0.6.
 # [Netron](https://github.com/lutzroeder/netron)
 pip install netron
 
+# [SHAP] https://github.com/slundberg/shap
+pip install shap
+
+
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
 
 
