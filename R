@@ -1,5 +1,9 @@
 # R containers wish list
 
+##########
+#  DONE  #
+##########
+
 vertica.dplyr (git)
 shinyWidgets (CRAN)
 
@@ -17,3 +21,13 @@ install_github("pbiecek/DALEX")
 
 # install compression utils
 RUN apt-get install -y pkzip unzip p7zip-full p7zip-rar
+
+##########
+#  TODO  #
+##########
+
+# NotepadQQ (for graphical desktop)
+# (https://itsfoss.com/notepad-alternatives-for-linux)
+# sudo add-apt-repository ppa:notepadqq-team/notepadqq
+sudo apt-get update
+sudo apt-get install notepadqq
