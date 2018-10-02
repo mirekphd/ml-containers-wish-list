@@ -26,6 +26,11 @@ RUN apt-get install -y pkzip unzip p7zip-full p7zip-rar
 #  TODO  #
 ##########
 
+# Atom (for graphical desktop)
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+
 # NotepadQQ (for graphical desktop)
 # (https://itsfoss.com/notepad-alternatives-for-linux)
 # sudo add-apt-repository ppa:notepadqq-team/notepadqq
