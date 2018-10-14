@@ -46,6 +46,8 @@ pip install shap
 #####################################
 
 
+# [dyNET](https://github.com/clab/dynet)
+
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
 
 
