@@ -50,7 +50,8 @@ pip install paddlepaddle-gpu
 
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
 
-
+# Rename utils
+apt-get install renameutils mmv
 
 
 
