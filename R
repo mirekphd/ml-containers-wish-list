@@ -23,12 +23,12 @@ install_github("pbiecek/DALEX")
 # install compression utils
 RUN apt-get install -y pkzip unzip p7zip-full p7zip-rar
 
+# RStudio 1.1.463
+https://download1.rstudio.org/rstudio-xenial-1.1.463-amd64.deb
+
 ##########
 #  TODO  #
 ##########
-
-# RStudio 1.1.463
-https://download1.rstudio.org/rstudio-xenial-1.1.463-amd64.deb
 
 # Rename utils
 apt-get install renameutils mmv
