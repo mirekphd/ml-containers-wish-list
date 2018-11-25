@@ -42,7 +42,6 @@ pip install shap
 # TODO
 #####################################
 
-
 # [dyNET](https://github.com/clab/dynet)
 
 # [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
@@ -53,5 +52,24 @@ pip install paddlepaddle-gpu
 # Rename utils
 apt-get install renameutils mmv
 
+# tensorflow-hub
+pip install tensorflow-hub
 
+# tensorflow-lattice-gpu
+pip install tensorflow-lattice-gpu
+
+# tensorflow-model-analysis
+pip install tensorflow-model-analysis
+
+# tensorflow-probability
+pip install tensorflow-probability
+
+# tensorflow-probability-gpu
+pip install tensorflow-probability-gpu
+
+# tensorflow-serving-api
+pip install tensorflow-serving-api
+
+# tensorflow-transform
+pip install tensorflow-transform
 
