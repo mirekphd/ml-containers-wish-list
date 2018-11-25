@@ -73,3 +73,11 @@ pip install tensorflow-serving-api
 # tensorflow-transform
 pip install tensorflow-transform
 
+# tensorboardX
+pip install tensorboardX
+
+# tensorforce
+pip install tensorforce
+
+# tensorlayer
+pip install tensorlayer
