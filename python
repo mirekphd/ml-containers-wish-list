@@ -100,4 +100,8 @@ pip install ml-python
 # nni
 pip install nni
 
+# WebDNN (https://github.com/mil-tokyo/webdnn)
+git clone https://github.com/mil-tokyo/webdnn
+cd webdnn
+python3 setup.py install
 
