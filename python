@@ -107,3 +107,9 @@ python3 setup.py install
 
 # batchglm
 pip install batchglm
+
+# ml-logger
+pip install ml-logger
+
+# nvgpu
+pip install nvgpu
