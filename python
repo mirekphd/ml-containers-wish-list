@@ -42,7 +42,10 @@ pip install shap
 # TODO
 #####################################
 
-# [TSNE-CUDA] https://github.com/CannyLab/tsne-cuda
+# [TSNE-CUDA] (https://github.com/CannyLab/tsne-cuda)
+
+[fastTSNE] (https://github.com/pavlin-policar/fastTSNE)
+pip install fasttsne
 
 # [dyNET](https://github.com/clab/dynet)
 
