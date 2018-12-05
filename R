@@ -1,5 +1,8 @@
 # R containers (*-rs) wish list
 
+# please enter new libaries in the TODO section
+# note: libaries in the DONE section have been already implemented
+
 
 ##########
 #  DONE  #
@@ -28,6 +31,7 @@ https://download1.rstudio.org/rstudio-xenial-1.1.463-amd64.deb
 
 # Rename utils
 apt-get install renameutils mmv
+
 
 ##########
 #  TODO  #
