@@ -47,6 +47,8 @@ pip install shap
 #####################################
 
 # [TSNE-CUDA] (https://github.com/CannyLab/tsne-cuda)
+# https://anaconda.org/CannyLab/tsnecuda/files
+conda install tsnecuda -c cannylab # For CUDA 8.0
 
 [fastTSNE] (https://github.com/pavlin-policar/fastTSNE)
 pip install fasttsne
