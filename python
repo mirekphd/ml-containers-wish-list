@@ -46,6 +46,9 @@ pip install shap
 # TODO
 #####################################
 
+# [jupyter-themes](https://github.com/dunovank/jupyter-themes)
+pip install jupyterthemes
+
 # [TSNE-CUDA] (https://github.com/CannyLab/tsne-cuda)
 # https://anaconda.org/CannyLab/tsnecuda/files
 conda install tsnecuda -c cannylab # For CUDA 8.0
