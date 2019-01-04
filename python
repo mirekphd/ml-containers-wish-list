@@ -46,6 +46,10 @@ pip install shap
 # TODO
 #####################################
 
+# set temp folder to prevent GridSearchCV() from raising following errors for n_jobs greater than 1:
+# "OSError: [Errno 28] No space left on device"
+%env JOBLIB_TEMP_FOLDER=~/
+
 # [jupyter-themes](https://github.com/dunovank/jupyter-themes)
 pip install jupyterthemes
 
