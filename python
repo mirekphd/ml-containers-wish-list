@@ -50,6 +50,18 @@ pip install shap
 # "OSError: [Errno 28] No space left on device"
 %env JOBLIB_TEMP_FOLDER=~/
 
+# H2O 3.10.0.8
+pip install h2o==3.10.0.8 --target=/opt/conda/lib/python3.6/site-packages/h2o-ex87
+
+# H2O 3.16.0.2
+pip install h2o==3.16.0.2 --target=/opt/conda/lib/python3.6/site-packages/h2o-ex89
+
+# H2O 3.22.0.3
+pip install h2o==3.22.0.3 --target=/opt/conda/lib/python3.6/site-packages/h2o-ex91
+
+# H2O 3.22.1.1
+pip install h2o==3.22.1.1 --target=/opt/conda/lib/python3.6/site-packages/h2o-flow
+
 # [jupyter-themes](https://github.com/dunovank/jupyter-themes)
 pip install jupyterthemes
 
