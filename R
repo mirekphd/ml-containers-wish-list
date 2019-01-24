@@ -47,6 +47,9 @@ apt update && apt install -y apt
 # update systemd (for CVE-2018-16864 and CVE-2018-16865)
 apt-get update && apt-get install -y systemd
 
+# update perl (for CVE-2018-18311 .. 14)
+apt-get update && apt-get install -y perl
+
 
 ###############
 #  SUSPENDED  #
