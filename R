@@ -44,6 +44,8 @@ apt update && apt install -y apt
 #  TODO  #
 ##########
 
+# update systemd (for CVE-2018-16864 and CVE-2018-16865)
+apt-get update && apt-get install -y systemd
 
 
 ###############
