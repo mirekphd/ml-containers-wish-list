@@ -29,14 +29,14 @@ https://download1.rstudio.org/rstudio-xenial-1.1.463-amd64.deb
 # Rename utils
 apt-get install renameutils mmv
 
+# vsql
+# to be copied from Vertica's linux drivers bundle (from /bin/):
+https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_64.tar.gz 
+
 
 ##########
 #  TODO  #
 ##########
-
-# vsql
-# to be copied from Vertica's linux drivers bundle (from /bin/):
-https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_64.tar.gz 
 
 # install compression utils
 RUN apt-get install -y pkzip unzip p7zip-full p7zip-rar
