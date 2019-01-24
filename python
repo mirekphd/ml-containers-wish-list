@@ -49,6 +49,9 @@ pip install shap
 # update apt (for CVE-2019-3462)
 apt-get update && apt-get install -y apt
 
+# update systemd (for CVE-2018-16864 and CVE-2018-16865)
+apt-get update && apt-get install -y systemd
+
 # set temp folder to prevent GridSearchCV() from raising following errors for n_jobs greater than 1:
 # "OSError: [Errno 28] No space left on device"
 %env JOBLIB_TEMP_FOLDER=~/
