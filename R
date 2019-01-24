@@ -41,6 +41,8 @@ RUN apt-get install -y p7zip-full p7zip-rar zip
 #  TODO  #
 ##########
 
+# apt update (for CVE-2019-3462)
+apt update && apt install -y apt
 
 
 ###############
