@@ -36,13 +36,14 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # install compression utils
 RUN apt-get install -y p7zip-full p7zip-rar zip
 
+# apt update (for CVE-2019-3462)
+apt update && apt install -y apt
+
 
 ##########
 #  TODO  #
 ##########
 
-# apt update (for CVE-2019-3462)
-apt update && apt install -y apt
 
 
 ###############
