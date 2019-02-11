@@ -46,6 +46,9 @@ pip install shap
 # TODO
 #####################################
 
+# kaggle-api (https://github.com/Kaggle/kaggle-api)
+pip install kaggle
+
 # update apt (for CVE-2019-3462)
 apt-get update && apt-get install -y apt
 
