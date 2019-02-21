@@ -59,7 +59,8 @@ pip install h2o==3.22.1.1 --target=/opt/conda/lib/python3.6/site-packages/h2o-fl
 #####################################
 
 # kaggle-api (https://github.com/Kaggle/kaggle-api)
-pip install kaggle
+# caution: versions older than 1.5.3 are affected by CVE-2018-20060
+pip install kaggle==1.5.3
 
 # update apt (for CVE-2019-3462)
 apt-get update && apt-get install -y apt
