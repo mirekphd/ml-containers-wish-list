@@ -82,6 +82,9 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # [jupyter-themes](https://github.com/dunovank/jupyter-themes)
 pip install jupyterthemes
 
+# jupyter widgets] https://github.com/jupyter-widgets/ipywidgets
+pip install ipywidgets
+
 # [TSNE-CUDA] (https://github.com/CannyLab/tsne-cuda)
 # https://anaconda.org/CannyLab/tsnecuda/files
 conda install tsnecuda -c cannylab # For CUDA 8.0
