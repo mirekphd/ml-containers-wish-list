@@ -53,11 +53,6 @@ pip install h2o==3.22.0.3 --target=/opt/conda/lib/python3.6/site-packages/h2o-ex
 # H2O 3.22.1.1
 pip install h2o==3.22.1.1 --target=/opt/conda/lib/python3.6/site-packages/h2o-flow
 
-
-#####################################
-# TODO
-#####################################
-
 # rpy2 (https://rpy2.bitbucket.io/)
 pip install rpy2
 
@@ -67,6 +62,11 @@ pip install vininfo
 # kaggle-api (https://github.com/Kaggle/kaggle-api)
 # caution: versions older than 1.5.3 are affected by CVE-2018-20060
 pip install kaggle==1.5.3
+
+
+#####################################
+# TODO
+#####################################
 
 # update apt (for CVE-2019-3462)
 apt-get update && apt-get install -y apt
