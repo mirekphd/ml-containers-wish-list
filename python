@@ -68,6 +68,9 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# modin (https://github.com/modin-project/modin)
+pip install modin
+
 # update apt (for CVE-2019-3462)
 apt-get update && apt-get install -y apt
 
