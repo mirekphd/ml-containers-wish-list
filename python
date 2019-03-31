@@ -68,6 +68,9 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# ludwig (https://github.com/uber/ludwig)
+pip install ludwig
+
 # modin (https://github.com/modin-project/modin)
 pip install modin
 
