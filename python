@@ -68,6 +68,9 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# csvkit (https://github.com/wireservice/csvkit)
+pip install csvkit
+
 # benford_py (https://github.com/milcent/benford_py)
 pip install benford_py
 
