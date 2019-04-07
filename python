@@ -68,6 +68,9 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# mlflow (https://github.com/mlflow/mlflow/
+pip install mlflow
+
 # csvkit (https://github.com/wireservice/csvkit)
 pip install csvkit
 
