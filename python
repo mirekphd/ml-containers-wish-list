@@ -68,6 +68,9 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# gunicorn (https://github.com/benoitc/gunicorn)
+pip install gunicorn
+
 # mlflow (https://github.com/mlflow/mlflow/
 pip install mlflow
 
