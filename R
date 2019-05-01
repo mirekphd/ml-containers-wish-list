@@ -50,6 +50,7 @@ apt-get update && apt-get install -y perl
 #  TODO  #
 ##########
 
+RStudio Server v1.2.1335
 
 
 ###############
