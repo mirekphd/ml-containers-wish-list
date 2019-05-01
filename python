@@ -68,6 +68,16 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# swig (for cvxpy)
+conda install -c anaconda swig 
+
+# lapack (for cvxpy)
+conda install -c conda-forge lapack
+
+# cvxpy (https://www.cvxpy.org/install/)
+conda install -c cvxgrp cvxpy
+pip install cvxpy
+
 # gunicorn (https://github.com/benoitc/gunicorn)
 pip install gunicorn
 
