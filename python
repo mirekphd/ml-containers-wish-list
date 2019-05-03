@@ -68,6 +68,9 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# dask-ml (https://github.com/dask/dask-ml)
+pip install dask-ml
+
 # swig (for cvxpy)
 conda install -c anaconda swig 
 
