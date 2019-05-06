@@ -68,6 +68,12 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# xmljson (https://github.com/sanand0/xmljson)
+pip install xmljson
+
+# xmltodict (https://github.com/martinblech/xmltodict)
+pip install xmltodict
+
 # dask-ml (https://github.com/dask/dask-ml)
 pip install dask-ml
 
