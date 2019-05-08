@@ -68,6 +68,18 @@ pip install kaggle==1.5.3
 # TODO
 #####################################
 
+# pyspark (https://github.com/apache/spark/tree/master/python)
+pip install pyspark
+
+# spark-sklearn (https://github.com/databricks/spark-sklearn)
+pip install spark-sklearn
+
+# optimuspyspark (https://github.com/ironmussa/Optimus/)
+pip install optimuspyspark
+
+# koalas (https://github.com/databricks/koalas)
+pip install koalas
+
 # xmljson (https://github.com/sanand0/xmljson)
 pip install xmljson
 
