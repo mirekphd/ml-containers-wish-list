@@ -50,6 +50,9 @@ apt-get update && apt-get install -y perl
 #  TODO  #
 ##########
 
+# vroom (https://github.com/r-lib/vroom)
+devtools::install_github("r-lib/vroom")
+
 RStudio Server v1.2.1335
 
 
