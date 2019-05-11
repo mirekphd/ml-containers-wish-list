@@ -87,13 +87,6 @@ pip install xmltodict
 # dask-ml (https://github.com/dask/dask-ml)
 pip install dask-ml
 
-
-
-
-#####################################
-# TODO
-#####################################
-
 # swig (for cvxpy)
 conda install -c anaconda swig 
 
@@ -103,6 +96,13 @@ conda install -c conda-forge lapack
 # cvxpy (https://www.cvxpy.org/install/)
 conda install -c cvxgrp cvxpy
 pip install cvxpy
+
+
+
+
+#####################################
+# TODO
+#####################################
 
 # gunicorn (https://github.com/benoitc/gunicorn)
 pip install gunicorn
