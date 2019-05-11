@@ -118,11 +118,6 @@ pip install ludwig
 # modin (https://github.com/modin-project/modin)
 pip install modin
 
-
-#####################################
-# TODO
-#####################################
-
 # update apt (for CVE-2019-3462)
 apt-get update && apt-get install -y apt
 
@@ -131,6 +126,11 @@ apt-get update && apt-get install -y systemd
 
 # update perl (for CVE-2018-18311 .. 14)
 apt-get update && apt-get install -y perl
+
+
+#####################################
+# TODO
+#####################################
 
 # PyOD (https://github.com/yzhao062/pyod)
 pip install pyod
