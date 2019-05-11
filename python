@@ -220,6 +220,16 @@ pip install webdnn
 # batchglm
 pip install batchglm
 
+# ml-logger
+pip install ml-logger
+
+# nvgpu
+pip install nvgpu
+
+# vsql
+# to be copied from Vertica's linux drivers bundle (from /bin/):
+https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_64.tar.gz 
+
 
 #####################################
 # TODO
@@ -229,14 +239,4 @@ pip install batchglm
 # "OSError: [Errno 28] No space left on device"
 %env JOBLIB_TEMP_FOLDER=~/
 
-# vsql
-# to be copied from Vertica's linux drivers bundle (from /bin/):
-https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_64.tar.gz 
-
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
-
-# ml-logger
-pip install ml-logger
-
-# nvgpu
-pip install nvgpu
