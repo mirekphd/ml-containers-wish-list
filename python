@@ -63,13 +63,13 @@ pip install vininfo
 # caution: versions older than 1.5.3 are affected by CVE-2018-20060
 pip install kaggle==1.5.3
 
+# javac (1.8.0_191) Java compiler from OpenJDK
+apt update & apt install -y default-jdk
+
 
 #####################################
 # TODO
 #####################################
-
-# javac (1.8.0_191) Java compiler from OpenJDK
-apt update & apt install -y default-jdk
 
 # pyspark (https://github.com/apache/spark/tree/master/python)
 pip install pyspark
