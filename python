@@ -97,13 +97,6 @@ conda install -c conda-forge lapack
 conda install -c cvxgrp cvxpy
 pip install cvxpy
 
-
-
-
-#####################################
-# TODO
-#####################################
-
 # gunicorn (https://github.com/benoitc/gunicorn)
 pip install gunicorn
 
@@ -118,6 +111,11 @@ pip install csvkit
 
 # benford_py (https://github.com/milcent/benford_py)
 pip install benford_py
+
+
+#####################################
+# TODO
+#####################################
 
 # ludwig (https://github.com/uber/ludwig)
 pip install ludwig
