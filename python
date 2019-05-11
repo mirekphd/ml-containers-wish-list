@@ -190,6 +190,15 @@ pip install tensorforce
 # tensorlayer
 pip install tensorlayer
 
+# adanet
+pip install adanet
+
+# datmo
+pip install datmo
+
+# foolbox
+pip install foolbox
+
 
 #####################################
 # TODO
@@ -210,15 +219,6 @@ pip install dyNET
 
 # [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
 pip install paddlepaddle-gpu
-
-# adanet
-pip install adanet
-
-# datmo
-pip install datmo
-
-# foolbox
-pip install foolbox
 
 # hypopt
 pip install hypopt
