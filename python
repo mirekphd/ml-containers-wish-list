@@ -84,16 +84,15 @@ pip install xmljson
 # xmltodict (https://github.com/martinblech/xmltodict)
 pip install xmltodict
 
+# dask-ml (https://github.com/dask/dask-ml)
+pip install dask-ml
+
+
+
 
 #####################################
 # TODO
 #####################################
-
-
-
-
-# dask-ml (https://github.com/dask/dask-ml)
-pip install dask-ml
 
 # swig (for cvxpy)
 conda install -c anaconda swig 
