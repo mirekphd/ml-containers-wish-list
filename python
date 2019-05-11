@@ -160,28 +160,6 @@ pip install xlearn
 # [tffm] (https://github.com/geffy/tffm)
 pip install tffm
 
-
-
-#####################################
-# TODO
-#####################################
-
-# set temp folder to prevent GridSearchCV() from raising following errors for n_jobs greater than 1:
-# "OSError: [Errno 28] No space left on device"
-%env JOBLIB_TEMP_FOLDER=~/
-
-# vsql
-# to be copied from Vertica's linux drivers bundle (from /bin/):
-https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_64.tar.gz 
-
-# [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
-
-# [dyNET](https://github.com/clab/dynet)
-pip install dyNET
-
-# [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
-pip install paddlepaddle-gpu
-
 # tensorflow-hub
 pip install tensorflow-hub
 
@@ -211,6 +189,27 @@ pip install tensorforce
 
 # tensorlayer
 pip install tensorlayer
+
+
+#####################################
+# TODO
+#####################################
+
+# set temp folder to prevent GridSearchCV() from raising following errors for n_jobs greater than 1:
+# "OSError: [Errno 28] No space left on device"
+%env JOBLIB_TEMP_FOLDER=~/
+
+# vsql
+# to be copied from Vertica's linux drivers bundle (from /bin/):
+https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_64.tar.gz 
+
+# [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
+
+# [dyNET](https://github.com/clab/dynet)
+pip install dyNET
+
+# [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
+pip install paddlepaddle-gpu
 
 # adanet
 pip install adanet
