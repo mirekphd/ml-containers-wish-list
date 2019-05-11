@@ -112,16 +112,16 @@ pip install csvkit
 # benford_py (https://github.com/milcent/benford_py)
 pip install benford_py
 
-
-#####################################
-# TODO
-#####################################
-
 # ludwig (https://github.com/uber/ludwig)
 pip install ludwig
 
 # modin (https://github.com/modin-project/modin)
 pip install modin
+
+
+#####################################
+# TODO
+#####################################
 
 # update apt (for CVE-2019-3462)
 apt-get update && apt-get install -y apt
