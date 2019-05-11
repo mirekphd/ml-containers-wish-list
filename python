@@ -78,6 +78,12 @@ pip install optimuspyspark
 # koalas (https://github.com/databricks/koalas)
 pip install koalas
 
+# xmljson (https://github.com/sanand0/xmljson)
+pip install xmljson
+
+# xmltodict (https://github.com/martinblech/xmltodict)
+pip install xmltodict
+
 
 #####################################
 # TODO
@@ -85,11 +91,6 @@ pip install koalas
 
 
 
-# xmljson (https://github.com/sanand0/xmljson)
-pip install xmljson
-
-# xmltodict (https://github.com/martinblech/xmltodict)
-pip install xmltodict
 
 # dask-ml (https://github.com/dask/dask-ml)
 pip install dask-ml
