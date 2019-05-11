@@ -199,6 +199,9 @@ pip install datmo
 # foolbox
 pip install foolbox
 
+# [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
+pip install paddlepaddle-gpu
+
 
 #####################################
 # TODO
@@ -216,9 +219,6 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 
 # [dyNET](https://github.com/clab/dynet)
 pip install dyNET
-
-# [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
-pip install paddlepaddle-gpu
 
 # hypopt
 pip install hypopt
