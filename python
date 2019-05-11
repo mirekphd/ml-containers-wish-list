@@ -127,11 +127,6 @@ apt-get update && apt-get install -y systemd
 # update perl (for CVE-2018-18311 .. 14)
 apt-get update && apt-get install -y perl
 
-
-#####################################
-# TODO
-#####################################
-
 # PyOD (https://github.com/yzhao062/pyod)
 pip install pyod
 
@@ -142,6 +137,12 @@ githubcommit (https://github.com/sat28/githubcommit)
 pip install git+https://github.com/sat28/githubcommit.git
 # jupyter serverextension enable --py githubcommit
 jupyter nbextension install --py githubcommit
+
+
+#####################################
+# TODO
+#####################################
+
 
 # set temp folder to prevent GridSearchCV() from raising following errors for n_jobs greater than 1:
 # "OSError: [Errno 28] No space left on device"
