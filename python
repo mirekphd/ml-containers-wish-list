@@ -202,6 +202,15 @@ pip install foolbox
 # [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
 pip install paddlepaddle-gpu
 
+# hypopt
+pip install hypopt
+
+# ml-python
+pip install ml-python
+
+# nni
+pip install nni
+
 
 #####################################
 # TODO
@@ -219,15 +228,6 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 
 # [dyNET](https://github.com/clab/dynet)
 pip install dyNET
-
-# hypopt
-pip install hypopt
-
-# ml-python
-pip install ml-python
-
-# nni
-pip install nni
 
 # WebDNN (https://github.com/mil-tokyo/webdnn)
 git clone https://github.com/mil-tokyo/webdnn
