@@ -144,6 +144,19 @@ pip install jupyterthemes
 # jupyter widgets] https://github.com/jupyter-widgets/ipywidgets
 pip install ipywidgets
 
+# [TSNE-CUDA] (https://github.com/CannyLab/tsne-cuda)
+# https://anaconda.org/CannyLab/tsnecuda/files
+conda install tsnecuda -c cannylab # For CUDA 8.0
+
+[fastTSNE] (https://github.com/pavlin-policar/fastTSNE)
+pip install fasttsne
+
+# [xlearn] https://github.com/aksnzhy/xlearn
+pip install xlearn
+
+# [tffm] (https://github.com/geffy/tffm)
+pip install tffm
+
 
 #####################################
 # TODO
@@ -158,28 +171,16 @@ pip install ipywidgets
 # to be copied from Vertica's linux drivers bundle (from /bin/):
 https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_64.tar.gz 
 
-# [TSNE-CUDA] (https://github.com/CannyLab/tsne-cuda)
-# https://anaconda.org/CannyLab/tsnecuda/files
-conda install tsnecuda -c cannylab # For CUDA 8.0
-
-[fastTSNE] (https://github.com/pavlin-policar/fastTSNE)
-pip install fasttsne
-
-[xlearn]
-https://github.com/aksnzhy/xlearn
-
-[tffm] (https://github.com/geffy/tffm)
-pip install tffm
-
-# [dyNET](https://github.com/clab/dynet)
-
-# [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
-pip install paddlepaddle-gpu
-
 # [TensorRT](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html)
 
 # Rename utils
 apt-get install renameutils mmv
+
+# [dyNET](https://github.com/clab/dynet)
+pip install dyNET
+
+# [PaddlePaddle](https://github.com/PaddlePaddle/Paddle)
+pip install paddlepaddle-gpu
 
 # tensorflow-hub
 pip install tensorflow-hub
