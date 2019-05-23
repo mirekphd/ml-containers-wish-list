@@ -235,6 +235,9 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # TODO
 #####################################
 
+# pythia (https://github.com/facebookresearch/pythia)
+# caution: pythia on pypi is a different package
+
 # set temp folder to prevent GridSearchCV() from raising following errors for n_jobs greater than 1:
 # "OSError: [Errno 28] No space left on device"
 %env JOBLIB_TEMP_FOLDER=~/
