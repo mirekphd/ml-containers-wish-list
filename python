@@ -3,7 +3,15 @@
 # please enter new libaries in the TODO section
 # note: libaries in the DONE section have been already implemented
 
+# selenium (https://github.com/SeleniumHQ/selenium/tree/master/py)
+# pip install selenium
 
+# geckodriver for selenium (https://github.com/mozilla/geckodriver)
+# wget latest build from https://github.com/mozilla/geckodriver/releases
+# and copy to /usr/bin (in PATH)
+
+# firefox for selenium (note that firefox has --headless mode)
+# apt-get update & apt-get install firefox
 
 
 #####################################
