@@ -243,6 +243,17 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # TODO
 #####################################
 
+# sqlalchemy-vertica (https://github.com/lv10/sqlalchemy-vertica)
+pip install sqlalchemy-vertica
+
+# ipython-sql (https://github.com/catherinedevlin/ipython-sql)
+pip install ipython-sql
+
+# jupyterlab-sql (https://github.com/pbugnion/jupyterlab-sql)
+pip install jupyterlab_sql
+jupyter serverextension enable jupyterlab_sql --py --sys-prefix
+jupyter lab build
+
 # pythia (https://github.com/facebookresearch/pythia)
 # caution: pythia on pypi is a different package
 
