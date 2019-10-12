@@ -243,6 +243,9 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # TODO
 #####################################
 
+# sherpa (https://github.com/sherpa-ai/sherpa)
+pip install parameter-sherpa
+
 # sqlalchemy-vertica (https://github.com/lv10/sqlalchemy-vertica)
 pip install sqlalchemy-vertica
 
