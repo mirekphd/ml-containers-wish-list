@@ -243,12 +243,6 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # TODO
 #####################################
 
-# sherpa (https://github.com/sherpa-ai/sherpa)
-pip install parameter-sherpa
-
-# sqlalchemy-vertica (https://github.com/lv10/sqlalchemy-vertica)
-pip install sqlalchemy-vertica
-
 # ipython-sql (https://github.com/catherinedevlin/ipython-sql)
 pip install ipython-sql
 
@@ -256,6 +250,18 @@ pip install ipython-sql
 pip install jupyterlab_sql
 jupyter serverextension enable jupyterlab_sql --py --sys-prefix
 jupyter lab build
+
+# records (https://github.com/kennethreitz/records)
+pip install records
+
+# sherpa (https://github.com/sherpa-ai/sherpa)
+pip install parameter-sherpa
+
+# sqlalchemy-vertica (https://github.com/lv10/sqlalchemy-vertica)
+pip install sqlalchemy-vertica
+
+# tablib (https://github.com/jazzband/tablib)
+pip install tablib
 
 # pythia (https://github.com/facebookresearch/pythia)
 # caution: pythia on pypi is a different package
