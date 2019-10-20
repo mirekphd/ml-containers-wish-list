@@ -243,6 +243,9 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # TODO
 #####################################
 
+# cuDF (https://github.com/rapidsai/cudf)
+pip install cudf
+
 # ipython-sql (https://github.com/catherinedevlin/ipython-sql)
 pip install ipython-sql
 
