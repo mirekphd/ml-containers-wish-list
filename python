@@ -246,6 +246,9 @@ https://www.vertica.com/client_drivers/9.2.x/9.2.0-0/vertica-client-9.2.0-0.x86_
 # cuDF (https://github.com/rapidsai/cudf)
 pip install cudf
 
+# hyperparameter-hunter (https://github.com/HunterMcGushion/hyperparameter_hunter)
+pip install hyperparameter-hunter
+
 # ipython-sql (https://github.com/catherinedevlin/ipython-sql)
 pip install ipython-sql
 
@@ -253,6 +256,9 @@ pip install ipython-sql
 pip install jupyterlab_sql
 jupyter serverextension enable jupyterlab_sql --py --sys-prefix
 jupyter lab build
+
+# pythia (https://github.com/facebookresearch/pythia)
+# caution: pythia on pypi is a different package
 
 # records (https://github.com/kennethreitz/records)
 pip install records
@@ -266,8 +272,10 @@ pip install sqlalchemy-vertica
 # tablib (https://github.com/jazzband/tablib)
 pip install tablib
 
-# pythia (https://github.com/facebookresearch/pythia)
-# caution: pythia on pypi is a different package
+# TPOT (https://github.com/EpistasisLab/tpot; 
+# https://epistasislab.github.io/tpot/api/; 
+# https://github.com/EpistasisLab/tpot/issues/808)
+pip install tpot
 
 # set temp folder to prevent GridSearchCV() from raising following errors for n_jobs greater than 1:
 # "OSError: [Errno 28] No space left on device"
