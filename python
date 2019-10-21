@@ -257,6 +257,9 @@ pip install jupyterlab_sql
 jupyter serverextension enable jupyterlab_sql --py --sys-prefix
 jupyter lab build
 
+# minio (https://github.com/minio/minio-py; https://github.com/minio/minio)
+pip install minio
+
 # pythia (https://github.com/facebookresearch/pythia)
 # caution: pythia on pypi is a different package
 
