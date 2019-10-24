@@ -50,6 +50,8 @@ apt-get update && apt-get install -y perl
 #  TODO  #
 ##########
 
+flexdashboard
+
 # vroom (https://github.com/r-lib/vroom)
 devtools::install_github("r-lib/vroom")
 
