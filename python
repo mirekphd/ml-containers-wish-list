@@ -260,6 +260,9 @@ jupyter lab build
 # minio (https://github.com/minio/minio-py; https://github.com/minio/minio)
 pip install minio
 
+# miraiML (https://github.com/arthurpaulino/miraiml)
+pip install miraiml
+
 # pythia (https://github.com/facebookresearch/pythia)
 # caution: pythia on pypi is a different package
 
