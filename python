@@ -269,6 +269,9 @@ pip install miraiml
 # records (https://github.com/kennethreitz/records)
 pip install records
 
+# pygam (https://pygam.readthedocs.io/en/latest/)
+pip install pygam
+
 # sherpa (https://github.com/sherpa-ai/sherpa)
 pip install parameter-sherpa
 
